@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyperlink</title>
+  </head>
+  <body>
+    <h1>Selamat Datang</h1>
+    <p>
+      <a href="index.html" style="color: red">Home</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="about.html" title="Menuju ke halaman about">About</a>
+    </p>
+    <hr />
+    <p>
+      Selamat datang di websiteku. Coba klik menu di atas, maka kamu akan
+      membuka halaman yang berbeda. Semua link di atas adalah internal link.
+    </p>
+    <hr />
+    <!-- Anchor -->
+    <p>
+      Ini adalah contoh link anchor. Coba klik link ini:
+      <a href="#penutup">Meluncur ke Penutup</a> maka kamu akan dibawa ke bagian
+      penutup dari dokumen ini.
+    </p>
+    <h2>Apa itu Jangkar?</h2>
+    <p>
+      Anchor dalam bahasa indonesia artinya jangkar. Dalam HTML, fungsinya
+      adalah membuat link yang bisa membawa kita meluncur ke tujuan jangkar itu.
+      Jangkar atau anchor di HTML tidak hanya bisa digunakan pada satu dokumen
+      saja. Ia juga bisa digunakan untuk membuka dokumen lain, lalu mengaitkan
+      jangkarnya.
+    </p>
+    <p>
+      Jangkar biasanya dibuat dengan tanda pagar (#) lalu diikuti dengan nama id
+      dari elemen yang ingin dituju. Contohnya #penutup, maka link yang
+      menggunakan anchor tersebut akan mencari elemen HTML yang memiliki id
+      `penutup` dan membawa kita ke sana.
+    </p>
+    <hr />
+    <!-- Inframe -->
+    <p>
+      Inframe Link :
+      <a href="https://en.wikipedia.org/wiki/HTML" target="myframe">HTML</a>
+    </p>
+    <p>
+      <!-- Frame yang akan menjadi target link -->
+      <iframe name="myframe" width="600" height="400"></iframe>
+    </p>
+    <hr />
+    <!-- Event & JS -->
+    <p>
+      <a href="#" onclick="alert('OnClick!')">Jalankan OnClick</a>
+      <br />
+      <a href="javascript:alert('JS!')">Jalankan JS</a>
+      <br />
+      <a href="#!" onmouseover="alert('link sudah kamu sentuh!')"
+        >Coba Sentuh Link ini</a
+      >
+    </p>
+    <hr />
+    <h2 id="penutup">Akhir Kata..</h2>
+    <p>
+      Ini adalah bagian penutup dari halaman ini, dan coba perhatikan
+      headingnya. Di sana kita menggunakan id="penutup". Maka elemen ini akan
+      menjadi tujuan dari anchor link.
+    </p>
+    <p>
+      <a href="#top">Kembali ke Atas!</a>
+    </p>
+    <hr />
+    <p align="center">Created &#64; 2020</p>
+  </body>
+</html>
