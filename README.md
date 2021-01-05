@@ -7,5 +7,6 @@ Learn HTML
 5. Form
 6. Semantics
 7. Video
+8. Audio
 
 Source : https://www.petanikode.com/tutorial/html/
